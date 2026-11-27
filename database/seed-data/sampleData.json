@@ -1,0 +1,57 @@
+{
+  "office": {
+    "id": "PO-600001",
+    "name": "Anna Nagar Sub Post Office",
+    "code": "PO-600001",
+    "pincode": "600040",
+    "type": "Town",
+    "division": "Chennai Central",
+    "region": "Chennai Region",
+    "circle": "Tamil Nadu Circle"
+  },
+  "users": [
+    {
+      "employeeId": "PM600040",
+      "name": "S. Meenakshi Sundaram",
+      "role": "POSTMASTER"
+    },
+    {
+      "employeeId": "PA600041",
+      "name": "V. Murugan",
+      "role": "POSTAL_STAFF"
+    },
+    {
+      "employeeId": "PMTS600042",
+      "name": "R. Anbarasan",
+      "role": "POSTAL_STAFF"
+    },
+    {
+      "employeeId": "ADMIN001",
+      "name": "K. Rajasekaran",
+      "role": "ADMIN"
+    }
+  ],
+  "sampleConsignments": [
+    {
+      "trackingNumber": "SP829104812IN",
+      "category": "SPEED_POST",
+      "status": "OUT_FOR_DELIVERY",
+      "recipient": "T. Karthikeyan",
+      "address": "Flat 4B, Shanthi Colony, Anna Nagar, Chennai"
+    },
+    {
+      "trackingNumber": "RP930219485IN",
+      "category": "REGISTERED_POST",
+      "status": "DELIVERED",
+      "recipient": "Dr. S. Ramanathan",
+      "address": "Plot 112, 12th Main Road, Anna Nagar West, Chennai"
+    },
+    {
+      "trackingNumber": "CP402918239IN",
+      "category": "PARCEL",
+      "status": "EXCEPTION",
+      "recipient": "P. Kavitha",
+      "address": "Old No. 18, 5th Cross Street, Anna Nagar East, Chennai"
+    }
+  ]
+}

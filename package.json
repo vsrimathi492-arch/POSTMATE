@@ -1,0 +1,37 @@
+{
+  "name": "postmate",
+  "version": "1.0.0",
+  "description": "POSTMATE - Smart Postal Operations Management System. Less Manual Work. More Smart Operations.",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:mobile": "npm --prefix apps/mobile run start",
+    "build": "npm run build:shared && npm run build:api && npm run build:web",
+    "build:shared": "npm --prefix packages/shared run build",
+    "build:api": "npm --prefix apps/api run build",
+    "build:web": "npm --prefix apps/web run build",
+    "seed": "npm --prefix apps/api run seed",
+    "test": "npm --prefix apps/api test",
+    "start": "npm --prefix apps/api run start"
+  },
+  "keywords": [
+    "postal",
+    "operations",
+    "management",
+    "automation",
+    "react",
+    "express",
+    "react-native",
+    "typescript"
+  ],
+  "author": "POSTMATE Team",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "POSTMATE",
+    "slug": "postmate-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0b1d3a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.postmate.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1d3a"
+      },
+      "package": "com.postmate.mobile",
+      "permissions": [
+        "CAMERA",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    }
+  }
+}
