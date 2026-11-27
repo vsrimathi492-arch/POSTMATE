@@ -18,6 +18,7 @@ apps/api/.env
 
 # Local runtime database & backups
 database/storage.json
+apps/database/storage.json
 *.zip
 
 # Hosting metadata
